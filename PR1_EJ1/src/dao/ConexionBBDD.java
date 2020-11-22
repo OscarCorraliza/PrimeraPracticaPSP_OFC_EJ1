@@ -6,7 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class ConexionBBDD {
-    PreparedStatement psInsertar = null;
 
     //Metodo para conectarse a la base de datos.
     public Connection getConexion() {
