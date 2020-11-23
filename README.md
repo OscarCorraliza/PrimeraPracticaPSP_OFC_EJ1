@@ -4,7 +4,7 @@ Descripción del proyecto
 ------------------------
 
 Consiste en una aplicacion a la cual accederá a una base de datos e insertara tantos registros como el usuario lo desee con tantos hilos como se quiera.
-Es un proyecto realizado completamente en java.
+Es un proyecto realizado completamente en java, en el IDE de IntelliJ.
 
 Estado del proyecto
 -------------------
