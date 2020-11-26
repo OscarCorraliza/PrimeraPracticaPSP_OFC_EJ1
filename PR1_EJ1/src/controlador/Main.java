@@ -23,8 +23,11 @@ public class Main {
         int principio = 0;
         int fin = incrementoBucle;
 
-        //Realizamos un bucle for para crear tantos hilos como quiere el usuario. Usamos las condiciones if else para que cuando llegue el ultimo hilo podamos
-        // añadirlo el resto de inserts que quedan por hacer (en caso de que el numeros de registros y el numero de hilos indicados por el usuario no sea una division exacta).
+        /**Realizamos un bucle for para crear tantos hilos como quiere el usuario. Usamos las condiciones if else para que
+         * cuando llegue el ultimo hilo podamos añadirlo el resto de inserts que quedan por hacer
+         (en caso de que el numeros de registros y el numero de hilos indicados por el usuario no sea una division exacta).*/
+
+
         for (int i = 1; i <= numeroHilos; i++) {
 
             if(i == numeroHilos){

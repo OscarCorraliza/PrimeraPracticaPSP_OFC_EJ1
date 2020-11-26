@@ -14,7 +14,7 @@ public class ConexionBBDD {
             connection = DriverManager.getConnection("jdbc:mysql://localhost/BBDD_PSP_1", "DAM2020_PSP", "DAM2020_PSP");
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Ha ocurrido un error al conectarse a la base de datos.");
         }
         return connection;
     }

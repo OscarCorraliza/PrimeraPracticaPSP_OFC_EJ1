@@ -27,8 +27,8 @@ public class Hilo extends Thread {
         rellenarBBDD();
     }
 
-    //Método para rellenar la base de datos a partir de un numero creado aleatoriamente entre 10 y 1000 (tabla ingresos) 
-    // y un e-mail generado aleatoriamente con la libreria faker (tabla e-mail) utilizando una prepared statement.
+    /**Método para rellenar la base de datos a partir de un numero creado aleatoriamente entre 10 y 1000 (tabla ingresos)
+    y un e-mail generado aleatoriamente con la libreria faker (tabla e-mail) utilizando una prepared statement.*/
     public void rellenarBBDD(){
 
         for (int x = principio; x < fin; x++){
